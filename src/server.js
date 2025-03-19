@@ -9,7 +9,6 @@ servidor.use(cors());
 
 adicionarRotas(servidor);
 
-
 const PORT = process.env.PORT;
 servidor.listen(
   PORT,

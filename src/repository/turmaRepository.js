@@ -52,7 +52,7 @@ export async function remover(id) {
 
 export async function listar() {
   const comando = `
-    SELECT 
+    SELECT  
       id_turma as id,
       nm_turma as turma,
       ds_curso as curso,
